@@ -29,4 +29,3 @@ memberNum' n xs = length filter (n==) xs
 unique :: [Int] -> (Int]
 unique ls = filter p xs
              where p x = memberNum x xs == 1
-1
